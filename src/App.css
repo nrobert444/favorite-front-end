@@ -1,3 +1,9 @@
+body {
+  background-image: url(https://images3.alphacoders.com/812/thumb-1920-812062.png);
+  background-size: cover;
+
+}
+
 .App {
   text-align: center;
 }
@@ -28,15 +34,20 @@
 }
 .search-bar {
   padding: 20px;
-  background-color: steelblue;
-
+}
+.search-bar h1 {
+  font-family: Gill Sans;
+  font-size: 48px;
+  font-weight: 300;
+  color: sandybrown;
+}
+.flex-contain {
+  display: inline-block;
 }
 .char-container {
-  display: block;
-  background-color: slategray;
-  border: 1px solid lightgray;
   text-align: center;
-  font-family: Arial;
+  border: solid 2px transparent;
+  font-family: Gill Sans;
   font-size: 24px;
   color: ghostwhite;
   margin: 3px 200px 0px 200px;

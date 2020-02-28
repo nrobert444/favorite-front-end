@@ -16,7 +16,6 @@ function App() {
             <Route exact path="/" component={Search} />
             <Route path="/" component={Favorites} />
         </Switch>
-
       </BrowserRouter>
     </div>
   );

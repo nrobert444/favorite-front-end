@@ -17,9 +17,12 @@ export default class Search extends Component {
 
     render() {
         return (
-            <div className='search-bar'>
-                <input value={this.state.input} onChange={(e) => this.setState({ input: e.target.value })} />
-                <button className='myButton' onClick={this.handleSearch} >Search</button>
+            <div>
+                <div className='search-bar'>
+                    <h1>Favorite Rick and Morty Characters</h1>
+                    <input value={this.state.input} onChange={(e) => this.setState({ input: e.target.value })} />
+                    <button className='myButton' onClick={this.handleSearch} >Search</button>
+                </div>
                 <List characters={this.state.characters} />
             </div>
         )
